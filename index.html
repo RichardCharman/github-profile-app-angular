@@ -20,11 +20,8 @@
         <button class="btn" ng-click="searchCtrl.doSearch()">Search</button>
       </form>
       <ul class="list-group" ng-repeat="user in searchCtrl.searchResult.items">
-        <li>
-          
-          <img ng-src="{{user.avatar_url}}&s=100" height='100' width='100'>
-          <a ng-href="{{user.html_url}}">{{user.login}}</a>
-        </li>
+          <div id="avatar"><img ng-src="{{user.avatar_url}}&s=100" height='100' width='100'></div>
+          <div id="name"><a ng-href="{{user.html_url}}">{{user.login}}</a></div>
       </ul>
     </div>
   </body>
