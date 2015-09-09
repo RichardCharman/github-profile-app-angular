@@ -4,13 +4,16 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  font-size: 16px;
+  font-size: 22px;
 	margin:10px 10px;
   padding:10px;
-	text-align:center;
 }
 #search {
    height: 160px;
+   text-align:center;
+}
+.class {
+   text-align:center;
 }
 .list-group {
   float: left;
@@ -28,23 +31,27 @@ body {
   padding-left: 10px;
   padding-bottom: 1000px;
   margin-bottom: -1000px;
+  overflow: hidden;
 }
 #results {
   float: left;
   padding-left: 10px;
   padding-bottom: 1000px;
   margin-bottom: -1000px;
-}
-#name {
   font-family: Arial Bold;
-	font-size: 150%;
-	font-weight: 700;
-	line-height: 40px;
+  font-size: 150%;
+  font-weight: 700;
+  line-height: 40px;
+  float: left;
+  overflow: hidden;
+}
+.name {
   float: left;
 }
 #repos {
-  font-family: Arial Bold;
-	font-size: 120%;
+  font-size: 80%;
+  font-weight: 700;
+  line-height: 25px;
   position: relative;
   text-align: left;
 }
