@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "A simple GitHub Profile app purely in JavaScript that grabs data from the Github API in order to display a specified users avatar, number of followers and number of repos.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RichardCharman/github-profile-app-angular.git"
